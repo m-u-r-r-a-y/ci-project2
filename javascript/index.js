@@ -11,10 +11,9 @@ let questions = [
 ];
 
 
-
 let random = Math.floor(Math.random() * questions.length)
 
-console.log(random)
+//console.log(random)
 
 document.getElementById("questions").innerHTML = questions[random][0];
 document.getElementById("choice1").innerHTML = questions[random][1];
@@ -28,9 +27,6 @@ var correctAnswer = "";
 var randInt = 0;
 var score = 0;
 var attempts = 6;
-
-/* Store the correct answer */
-correctAnswer = questions[randInt][5];
 
 function startNewGame() {
     score = 0;
