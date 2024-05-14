@@ -30,7 +30,7 @@ var score = 0;
 var attempts = 6;
 
 /* Store the correct answer */
-correctAnswer = questions[randInt][1];
+correctAnswer = questions[randInt][5];
 
 function startNewGame() {
     score = 0;
