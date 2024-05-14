@@ -1,6 +1,6 @@
 /* Questions & Choices : correct answer is stored as the final index of the choice sub array */
 let questions = [
-["How many planets in the solar system?","4","2","5","8", 4], 
+["How many planets are in the solar system?","4","2","5","8", 4], 
 ["Which planet is the largest?","Mars","Jupiter","pluto","Mercury", 3],
 ["Which planet is the smallest?","Mercury","Earth","neptune","Mars", 2],
 ["What colour is mars?","Red","Grey","Blue","Brown", 2]
