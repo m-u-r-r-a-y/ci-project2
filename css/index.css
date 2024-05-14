@@ -1,0 +1,15 @@
+body {
+    background-color: aquamarine;
+    color: darkorange;
+}
+button {
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color: bisque;   
+}
+
+button:hover {
+    color: bisque;
+    background-color: black;   
+}
