@@ -2,7 +2,7 @@
 let questions = [
 ["How many planets are in the solar system?","4","2","5","8", 4], 
 ["Which planet is the largest?","Mars","Jupiter","pluto","Mercury", 3],
-["Which planet is the smallest?","Mercury","Earth","neptune","Mars", 2],
+["Which planet is the smallest?","Mercury","Earth","Neptune","Mars", 2],
 ["What colour is mars?","Red","Grey","Blue","Brown", 2]
 ["Which planet has rings?","Earth","Jupiter","pluto","Saturn", 4]
 ["Which planet do people live on?","Earth","Mercury","pluto","Saturn", 2]
