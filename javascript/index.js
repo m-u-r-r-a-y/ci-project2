@@ -1,8 +1,14 @@
+/* Questions & Choices : correct answer is stored as the final index of the choice sub array */
 let questions = [
-["How many planet in the solar system?","4","2","5","8"], 
-["Which planet is the largest?","Mars","Jupiter","pluto","Mercury"],
-["Which planet is the smallest?","Mercury","Earth","neptune","Mars"],
-["Which planet is the coldest?","Earth","Mercury","pluto","Saturn"]];
+["How many planet in the solar system?","4","2","5","8", 4], 
+["Which planet is the largest?","Mars","Jupiter","pluto","Mercury", 3],
+["Which planet is the smallest?","Mercury","Earth","neptune","Mars", 2],
+["Which colour is mars?","Red","Grey","Blue","Brown", 2]
+["Which planet has rings?","Earth","Jupiter","pluto","Saturn", 4]
+["Which planet do people live on?","Earth","Mercury","pluto","Saturn", 2]
+["How to we get to the moon?","Bus","Bicyle","Spaceship","Lift", 4]
+
+];
 
 let random = Math.floor(Math.random() * questions.length)
 console.log(random)
