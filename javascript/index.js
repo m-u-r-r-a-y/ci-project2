@@ -1,8 +1,8 @@
 let questions = [
-["what color is the sky","red","blue","green","white"], 
-["q2","c1","c2","c3","c4"],
-["q3","c1","c2","c3","c4"],
-["q4","c1","c2","c3","c4"]];
+["How many planet in the solar system?","4","2","5","8"], 
+["Which planet is the largest?","Mars","Jupiter","pluto","Mercury"],
+["Which planet is the smallest?","Mercury","Earth","neptune","Mars"],
+["Which planet is the coldest?","Earth","Mercury","pluto","Saturn"]];
 
 let random = Math.floor(Math.random() * questions.length)
 console.log(random)
