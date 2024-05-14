@@ -41,7 +41,7 @@ function startNewGame() {
   }
 
   function clearScreen() {
-    /* Clear previous choices shown on screen */
+    /* Clear previous choices shown on screen 
     document.getElementById("questions").innerHTML = "";
     document.getElementById("choice1").innerHTML = "";
     document.getElementById("choice2").innerHTML = "";
