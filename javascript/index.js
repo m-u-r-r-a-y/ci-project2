@@ -11,15 +11,13 @@ let questions = [
 ];
 
 
-let random = Math.floor(Math.random() * questions.length)
+
 
 //console.log(random)
 
-document.getElementById("questions").innerHTML = questions[random][0];
-document.getElementById("choice1").innerHTML = questions[random][1];
-document.getElementById("choice2").innerHTML = questions[random][2];
-document.getElementById("choice3").innerHTML = questions[random][3];
-document.getElementById("choice4").innerHTML = questions[random][4];
+
+/* Create a backup clone of the original array */
+let backupQuestions = [...questions];
 
 
 /* initialise global variables */
@@ -39,6 +37,7 @@ function startNewGame() {
   }
 
   function clearScreen() {
+
     /* Clear previous choices shown on screen */
     document.getElementById("questions").innerHTML = "";
     document.getElementById("choice1").innerHTML = "";
@@ -57,10 +56,16 @@ function startNewGame() {
   
     /* Get a random number and use it to pick a question */
     randInt = Math.floor(Math.random() * questions.length);
-    document.getElementById("question").innerHTML = questions[randInt][0];
+    document.getElementById("questions").innerHTML = questions[randInt][0];
   
     /* Save the correct answer */
     correctAnswer = questions[randInt][5];
+    document.getElementById("choice1").innerHTML = questions[randInt][1];
+    document.getElementById("choice2").innerHTML = questions[randInt][2];
+    document.getElementById("choice3").innerHTML = questions[randInt][3];
+    document.getElementById("choice4").innerHTML = questions[randInt][4];
+    
+
   
     /* remove the question so that it doesn't come up again */
     questions.splice(randInt, 1);
