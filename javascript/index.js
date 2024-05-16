@@ -5,7 +5,7 @@ let questions = [
 ["Which planet is the smallest?","Mercury","Earth","Neptune","Mars", 2],
 ["What colour is mars?","Red","Grey","Blue","Brown", 2]
 ["Which planet has rings?","Earth","Jupiter","pluto","Saturn", 4]
-["Which planet do people live on?","Earth","Mercury","pluto","Saturn", 2]
+["What planet do people live on?","Earth","Mercury","pluto","Saturn", 2]
 ["How to we get to the moon?","Bus","Bicyle","Spaceship","Lift", 4]
 
 ];
