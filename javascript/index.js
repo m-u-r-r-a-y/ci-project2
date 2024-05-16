@@ -1,9 +1,9 @@
 /* Questions & Choices : correct answer is stored as the final index of the choice sub array */
 let questions = [
-["How many planet in the solar system?","4","2","5","8", 4], 
+["How many planets are in the solar system?","4","2","5","8", 4], 
 ["Which planet is the largest?","Mars","Jupiter","pluto","Mercury", 3],
-["Which planet is the smallest?","Mercury","Earth","neptune","Mars", 2],
-["Which colour is mars?","Red","Grey","Blue","Brown", 2]
+["Which planet is the smallest?","Mercury","Earth","Neptune","Mars", 2],
+["What colour is mars?","Red","Grey","Blue","Brown", 2]
 ["Which planet has rings?","Earth","Jupiter","pluto","Saturn", 4]
 ["Which planet do people live on?","Earth","Mercury","pluto","Saturn", 2]
 ["How to we get to the moon?","Bus","Bicyle","Spaceship","Lift", 4]
@@ -19,6 +19,8 @@ let questions = [
 /* Create a backup clone of the original array */
 let backupQuestions = [...questions];
 
+//backup questions array 
+let backupQuestions = [...questions];
 
 /* initialise global variables */
 var correctAnswer = "";
@@ -37,8 +39,12 @@ function startNewGame() {
   }
 
   function clearScreen() {
+<<<<<<< HEAD
 
     /* Clear previous choices shown on screen */
+=======
+    /* Clear previous choices shown on screen 
+>>>>>>> 778c16cde9b0375a040696c59001fd0b29cc98ca
     document.getElementById("questions").innerHTML = "";
     document.getElementById("choice1").innerHTML = "";
     document.getElementById("choice2").innerHTML = "";
