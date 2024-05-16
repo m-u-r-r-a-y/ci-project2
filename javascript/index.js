@@ -11,8 +11,6 @@ let questions = [
 ];
 
 
-
-
 //console.log(random)
 
 
@@ -39,12 +37,12 @@ function startNewGame() {
   }
 
   function clearScreen() {
-<<<<<<< HEAD
+
 
     /* Clear previous choices shown on screen */
-=======
+
     /* Clear previous choices shown on screen 
->>>>>>> 778c16cde9b0375a040696c59001fd0b29cc98ca
+
     document.getElementById("questions").innerHTML = "";
     document.getElementById("choice1").innerHTML = "";
     document.getElementById("choice2").innerHTML = "";
