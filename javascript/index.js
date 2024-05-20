@@ -6,7 +6,7 @@ let questions = [
 ["What colour is mars?","red.png","grey.png","blue.png","brown.png", 1],
 ["Which planet has rings?","earth.gif","jupiter.gif","pluto.gif","saturn.gif", 2],
 ["Which planet do people live on?","earth.gif","mercury.gif","pluto.gif","saturn.gif", 1],
-["How to we get to the moon?","bus.png","bicyle.jpg","rocket.jpg","lift.png", 3],
+["How to we get to the moon?","bus.png","bicycle.jpg","rocket.jpg","lift.png", 3],
 
 ];
 
