@@ -1,12 +1,12 @@
 /* Questions & Choices : correct answer is stored as the final index of the choice sub array */
 let questions = [
-["How many planets are in the solar system?","4","2","5","8", 4], 
+["How many planets are in the solar system?","4.webp","2.webp","5.webp","8.webp", 4], 
 ["Which planet is the largest?","mars.gif","jupiter.gif","pluto.gif","mercury.gif", 2],
 ["Which planet is the smallest?","mercury.gif","earth.gif","neptune.gif","mars.gif", 1],
-["What colour is mars?","Red","Grey","Blue","Brown", 1],
+["What colour is mars?","red.png","grey.png","blue.png","brown.png", 1],
 ["Which planet has rings?","earth.gif","jupiter.gif","pluto.gif","saturn.gif", 2],
 ["Which planet do people live on?","earth.gif","mercury.gif","pluto.gif","saturn.gif", 1],
-["How to we get to the moon?","Bus","Bicyle","Spaceship","Lift", 3],
+["How to we get to the moon?","bus.png","bicyle.jpg","rocket.jpg","lift.png", 3],
 
 ];
 
