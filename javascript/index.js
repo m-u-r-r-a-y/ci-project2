@@ -1,12 +1,12 @@
 /* Questions & Choices : correct answer is stored as the final index of the choice sub array */
 let questions = [
 ["How many planets are in the solar system?","4","2","5","8", 4], 
-["Which planet is the largest?","Mars","Jupiter","pluto","Mercury", 3],
-["Which planet is the smallest?","Mercury","Earth","Neptune","Mars", 2],
-["What colour is mars?","Red","Grey","Blue","Brown", 2]
-["Which planet has rings?","Earth","Jupiter","pluto","Saturn", 4]
-["What planet do people live on?","Earth","Mercury","pluto","Saturn", 2]
-["How to we get to the moon?","Bus","Bicyle","Spaceship","Lift", 4]
+["Which planet is the largest?","mars.gif","jupiter.gif","pluto.gif","mercury.gif", 2],
+["Which planet is the smallest?","mercury.gif","earth.gif","neptune.gif","mars.gif", 1],
+["What colour is mars?","Red","Grey","Blue","Brown", 1],
+["Which planet has rings?","earth.gif","jupiter.gif","pluto.gif","saturn.gif", 2],
+["Which planet do people live on?","earth.gif","mercury.gif","pluto.gif","saturn.gif", 1],
+["How to we get to the moon?","Bus","Bicyle","Spaceship","Lift", 3],
 
 ];
 
@@ -17,8 +17,6 @@ let questions = [
 /* Create a backup clone of the original array */
 let backupQuestions = [...questions];
 
-//backup questions array 
-let backupQuestions = [...questions];
 
 /* initialise global variables */
 var correctAnswer = "";
@@ -41,7 +39,7 @@ function startNewGame() {
 
     /* Clear previous choices shown on screen */
 
-    /* Clear previous choices shown on screen 
+    /* Clear previous choices shown on screen */
 
     document.getElementById("questions").innerHTML = "";
     document.getElementById("choice1").innerHTML = "";
@@ -64,10 +62,12 @@ function startNewGame() {
   
     /* Save the correct answer */
     correctAnswer = questions[randInt][5];
-    document.getElementById("choice1").innerHTML = questions[randInt][1];
-    document.getElementById("choice2").innerHTML = questions[randInt][2];
-    document.getElementById("choice3").innerHTML = questions[randInt][3];
-    document.getElementById("choice4").innerHTML = questions[randInt][4];
+
+  /* Use string literal to build up the HTML IMG tag, using image names from the questions array */
+    document.getElementById("choice1").innerHTML = `<img src=images/${questions[randInt][1]} >`;
+    document.getElementById("choice2").innerHTML = `<img src=images/${questions[randInt][2]} >`;
+    document.getElementById("choice3").innerHTML = `<img src=images/${questions[randInt][3]} >`;
+    document.getElementById("choice4").innerHTML = `<img src=images/${questions[randInt][4]} >`;
     
 
   
