@@ -10,10 +10,6 @@ let questions = [
 
 ];
 
-
-//console.log(random)
-
-
 /* Create a backup clone of the original array */
 let backupQuestions = [...questions];
 
@@ -64,12 +60,22 @@ function startNewGame() {
     correctAnswer = questions[randInt][5];
 
   /* Use string literal to build up the HTML IMG tag, using image names from the questions array */
-    document.getElementById("choice1").innerHTML = `<img src=images/${questions[randInt][1]} >`;
-    document.getElementById("choice2").innerHTML = `<img src=images/${questions[randInt][2]} >`;
-    document.getElementById("choice3").innerHTML = `<img src=images/${questions[randInt][3]} >`;
-    document.getElementById("choice4").innerHTML = `<img src=images/${questions[randInt][4]} >`;
-    
 
+  document.getElementById("choice1").innerHTML = `<img
+  src=images/${questions[randInt][1]}>
+  <h2>${questions[randInt][1].split('.')[0]}</h2>
+  
+  `; document.getElementById("choice2").innerHTML = `<img
+  src=images/${questions[randInt][2]}>
+  <h2>${questions[randInt][2].split('.')[0]}</h2>
+  `; document.getElementById("choice3").innerHTML = `<img
+  src=images/${questions[randInt][3]}>
+  <h2>${questions[randInt][3].split('.')[0]}</h2>
+  `; document.getElementById("choice4").innerHTML = `<img
+  src=images/${questions[randInt][4]}>
+  <h2>${questions[randInt][4].split('.')[0]}</h2>
+  `;
+    
   
     /* remove the question so that it doesn't come up again */
     questions.splice(randInt, 1);
