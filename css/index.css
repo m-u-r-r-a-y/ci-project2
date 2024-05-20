@@ -1,7 +1,9 @@
 body {
   background-color: rgb(0, 0, 0);
   color: darkorange;
+  background-image: url("/ci-project2/images/space_background.gif") ;
 }
+
 button {
   height: 340px;
   width: 340px;
