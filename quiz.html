@@ -22,15 +22,26 @@
         </tr>
       </table> 
 </section>
-    
+
+
+<audio id="correctSound">
+<source src="/ci-project2/audio/amazing.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio  id="incorrectSound">
+<source src="/ci-project2/audio/nevermind_flop.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 
     <div id="questions"></div>
     <br>
     <br>
-    <button id="choice1" onclick="checkAnswer(this , 1)"> </button>
-    <button id="choice2" onclick="checkAnswer(this , 2)"> </button>
-    <button id="choice3" onclick="checkAnswer(this , 3)"> </button>
-    <button id="choice4" onclick="checkAnswer(this , 4)"> </button>
+    <button id="choice1" onclick="checkAnswer(this , 1), playAudio()"> </button>
+    <button id="choice2" onclick="checkAnswer(this , 2), playAudio()"> </button>
+    <button id="choice3" onclick="checkAnswer(this , 3), playAudio()"> </button>
+    <button id="choice4" onclick="checkAnswer(this , 4), playAudio()"> </button>
 
 
     <script src="javascript/index.js"></script>
