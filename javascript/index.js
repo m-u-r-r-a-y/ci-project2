@@ -14,6 +14,10 @@
             var randInt = 0;
             var score = 0;
             var attempts = 6;
+            let userName = localStorage.getItem('userName') || '';
+
+            
+
 
             function startNewGame() {
                 score = 0;
@@ -72,10 +76,10 @@
                 document.getElementById("try").innerHTML = attempts;
 
                 if (score >= 3) {
-                    window.alert("Well Done!");
+                    window.alert(`Well Done, ${userName}!`);
                     startNewGame();
                 } else if (attempts <= 0) {
-                    window.alert("GAME OVER! Sorry..");
+                    window.alert(`GAME OVER! Sorry ${userName}`);
                     startNewGame();
                 } else {
                     displayQuestion();

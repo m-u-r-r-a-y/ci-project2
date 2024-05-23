@@ -26,7 +26,7 @@
       <h1 
       class="rubik-bubbles-regular" 
       id="landing_page">
-      Space Game
+      <a href="/ci-project2/index.html">Space Game</a>
     </h1>
 
       <section>
@@ -40,6 +40,7 @@
         </table>
       </section>
 
+
       <audio
         id="correctSound"
         src="/ci-project2/audio/amazing.mp3"
@@ -51,13 +52,19 @@
         type="audio/mpeg"
       ></audio>
 
-      <div id="questions"></div>
+        <div id="question-container">
+        <div id="questions"></div>
+    </div>
+
       <br />
       <br />
+
+      <div class="button-container">
       <button id="choice1" onclick="checkAnswer(this.id, 1)"></button>
       <button id="choice2" onclick="checkAnswer(this.id, 2)"></button>
       <button id="choice3" onclick="checkAnswer(this.id, 3)"></button>
       <button id="choice4" onclick="checkAnswer(this.id, 4)"></button>
+    </div>
 
       <script src="javascript/index.js"></script>
     </main>
