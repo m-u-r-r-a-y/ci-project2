@@ -1,31 +1,53 @@
 body {
   background-color: rgb(0, 0, 0);
-  color: darkorange;
+  color: rgb(255, 255, 255);
   background-image: url("/ci-project2/images/space_background.gif") ;
 }
 
-button {
-  height: 340px;
-  width: 340px;
-  color: black;
-  background-color: rgb(0, 0, 0);
-  border: none;
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+  }
+
+/* <uniquifier>: Use a unique and descriptive class name
+//** <weight>: Use a value from 100 to 700 **/
+
+.roboto-mono-quiz {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
-button:hover {
-  color: bisque;
-  background-color: black;
+#the_sun {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
+  
+h1, h2, p {
+  text-align: center;
+}
+
+#users_name {
+
+  font-size: largerroboto-mono-quiz;
+  color: chocolate;
+  font
+}
+
+form {
+
+  text-align: center;
+}
+
 
 img {
-height: 340px;
-width: 340px;
-cursor: pointer;
+height: 300px;
+width: 300px;
 }
 
-/* div {
-  background-color: rgb(255, 127, 240);
-  color: darkorange;
-  width: 100px;
-  height: 50px;
-}
+

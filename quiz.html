@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Quiz</title>
 
-    <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-<main>
-<section>
-    <table width="99%">
-        <tr>
-          <td>Score:</td>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
 
-          <td id="score"></td>
-          <td>Attempts Left:</td>
-          <td id="try"></td>
-        </tr>
-      </table> 
-</section>
+    <link rel="stylesheet" href="css/quiz.css" />
+  </head>
 
+  <body>
+    <main>
+      <h1 
+      class="rubik-bubbles-regular" 
+      id="landing_page">
+      Space Game
+    </h1>
 
-<audio id="correctSound">
-<source src="/ci-project2/audio/amazing.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+      <section>
+        <table width="99%">
+          <tr>
+            <td>Score:</td>
+            <td id="score"></td>
+            <td>Attempts Left:</td>
+            <td id="try"></td>
+          </tr>
+        </table>
+      </section>
 
-<audio  id="incorrectSound">
-<source src="/ci-project2/audio/nevermind_flop.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+      <audio
+        id="correctSound"
+        src="/ci-project2/audio/amazing.mp3"
+        type="audio/mpeg"
+      ></audio>
+      <audio
+        id="incorrectSound"
+        src="/ci-project2/audio/nevermind_flop.mp3"
+        type="audio/mpeg"
+      ></audio>
 
+      <div id="questions"></div>
+      <br />
+      <br />
+      <button id="choice1" onclick="checkAnswer(this.id, 1)"></button>
+      <button id="choice2" onclick="checkAnswer(this.id, 2)"></button>
+      <button id="choice3" onclick="checkAnswer(this.id, 3)"></button>
+      <button id="choice4" onclick="checkAnswer(this.id, 4)"></button>
 
-    <div id="questions"></div>
-    <br>
-    <br>
-    <button id="choice1" onclick="checkAnswer(this , 1), playAudio()"> </button>
-    <button id="choice2" onclick="checkAnswer(this , 2), playAudio()"> </button>
-    <button id="choice3" onclick="checkAnswer(this , 3), playAudio()"> </button>
-    <button id="choice4" onclick="checkAnswer(this , 4), playAudio()"> </button>
-
-
-    <script src="javascript/index.js"></script>
-</main>
-</body>
+      <script src="javascript/index.js"></script>
+    </main>
+  </body>
 </html>
-
- 
