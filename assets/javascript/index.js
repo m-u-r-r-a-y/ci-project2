@@ -1,11 +1,53 @@
-         let questions = [
-                ["How many planets are in the solar system?", "4.webp", "2.webp", "5.webp", "8.webp", 4],
-                ["Which planet is the largest?", "uranus.gif", "jupiter.gif", "pluto.gif", "mercury.gif", 2],
-                ["Which planet is the smallest?", "mercury.gif", "earth.gif", "neptune.gif", "mars.gif", 1],
-                ["What colour is mars?", "red.png", "grey.png", "blue.png", "brown.png", 1],
-                ["Which planet has rings?", "earth.gif", "jupiter.gif", "pluto.gif", "saturn.gif", 4],
-                ["Which planet do people live on?", "earth.gif", "mercury.gif", "pluto.gif", "saturn.gif", 1],
-                ["How do we get to the moon?", "bus.png", "bicycle.jpg", "rocket.jpg", "lift.png", 3],
+let questions = [
+             
+             ["How many planets are in the solar system?",
+                 "4.webp",
+                 "2.webp",
+                 "5.webp",
+                 "8.webp",
+                 4],
+             
+             ["Which planet is the largest?",
+                 "uranus.gif",
+                 "jupiter.gif",
+                 "pluto.gif",
+                 "mercury.gif",
+                 2],
+             
+             ["Which planet is the smallest?",
+                 "mercury.gif",
+                 "earth.gif",
+                 "neptune.gif",
+                 "mars.gif",
+                 1],
+             
+             ["What colour is mars?",
+                 "red.png",
+                 "grey.png",
+                 "blue.png",
+                 "brown.png",
+                 1],
+             
+             ["Which planet has rings?",
+                 "earth.gif",
+                 "jupiter.gif",
+                 "pluto.gif",
+                 "saturn.gif",
+                 4],
+             
+             ["Which planet do people live on?",
+                 "earth.gif",
+                 "mercury.gif",
+                 "pluto.gif",
+                 "saturn.gif",
+                 1],
+             
+             ["How do we get to the moon?",
+                 "bus.png",
+                 "bicycle.jpg",
+                 "rocket.jpg",
+                 "lift.png",
+                 3],
             ];
 
             let backupQuestions = [...questions];
@@ -44,16 +86,16 @@
 
                 correctAnswer = questions[randInt][5];
 
-                document.getElementById("choice1").innerHTML = `<img src=assets/images/${questions[randInt][1]} alt="choice1">
+                document.getElementById("choice1").innerHTML = `<img src=/ci-project2/assets/images/${questions[randInt][1]} alt="choice1">
                 <h2>${questions[randInt][1].split('.')[0]}</h2>`;
 
-                document.getElementById("choice2").innerHTML = `<img src=assets/images/${questions[randInt][2]} alt="choice2">
+                document.getElementById("choice2").innerHTML = `<img src=/ci-project2/assets/images/${questions[randInt][2]} alt="choice2">
                 <h2>${questions[randInt][2].split('.')[0]}</h2>`;
 
-                document.getElementById("choice3").innerHTML = `<img src=assets/images/${questions[randInt][3]} alt="choice3">
+                document.getElementById("choice3").innerHTML = `<img src=/ci-project2/assets/images/${questions[randInt][3]} alt="choice3">
                 <h2>${questions[randInt][3].split('.')[0]}</h2>`;
 
-                document.getElementById("choice4").innerHTML = `<img src=assets/images/${questions[randInt][4]} alt="choice4">
+                document.getElementById("choice4").innerHTML = `<img src=/ci-project2/assets/images/${questions[randInt][4]} alt="choice4">
                 <h2>${questions[randInt][4].split('.')[0]}</h2>`;
 
                 questions.splice(randInt, 1);
