@@ -44,16 +44,16 @@
 
                 correctAnswer = questions[randInt][5];
 
-                document.getElementById("choice1").innerHTML = `<img src=images/${questions[randInt][1]} alt="choice1">
+                document.getElementById("choice1").innerHTML = `<img src=assets/images/${questions[randInt][1]} alt="choice1">
                 <h2>${questions[randInt][1].split('.')[0]}</h2>`;
 
-                document.getElementById("choice2").innerHTML = `<img src=images/${questions[randInt][2]} alt="choice2">
+                document.getElementById("choice2").innerHTML = `<img src=assets/images/${questions[randInt][2]} alt="choice2">
                 <h2>${questions[randInt][2].split('.')[0]}</h2>`;
 
-                document.getElementById("choice3").innerHTML = `<img src=images/${questions[randInt][3]} alt="choice3">
+                document.getElementById("choice3").innerHTML = `<img src=assets/images/${questions[randInt][3]} alt="choice3">
                 <h2>${questions[randInt][3].split('.')[0]}</h2>`;
 
-                document.getElementById("choice4").innerHTML = `<img src=images/${questions[randInt][4]} alt="choice4">
+                document.getElementById("choice4").innerHTML = `<img src=assets/images/${questions[randInt][4]} alt="choice4">
                 <h2>${questions[randInt][4].split('.')[0]}</h2>`;
 
                 questions.splice(randInt, 1);

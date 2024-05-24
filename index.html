@@ -1,65 +1,85 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- This website was designd by Ryan Murray in 2024 for children learning how to use a computer.-->
 
     <meta name="description" content="Space Game" />
-    <meta
-      name="keywords"
-      content="Space Game, Learning about planets, Universe for children, zoom zoom zoom"
-    />
 
-    <title>Space Game</title>
+    <meta name="keywords" content="Space Game, Learning about planets, Universe for children, zoom zoom zoom" />
+
+    <title>
+        Space Game
+    </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="/css/index.css" />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet" />
 
-  <body>
-    <h1 class="rubik-bubbles-regular" id="landing_page">Play Space Game</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
 
-    <img id="the_sun" src="/images/sun.gif" alt="image of the sun" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
 
-    <p class="roboto-mono-quiz" id="age_info">
-      This is a game for children age 3+
-    </p>
+</head>
 
-    <h2 class="roboto-mono-quiz" id="users_name">What is your name?</h2>
+<body>
 
-    <form id="nameForm" class="roboto-mono-quiz">
-      <label for="fname">Hello </label>
-      <input type="text" id="fname" name="fname" required />
-      <input id="submit_button" type="submit" value="Start Game" />
-    </form>
+    <main>
+        <h1 class="rubik-bubbles-regular" id="landing_page_text">
 
-    <audio id="landing_audio" loop autoplay>
-      <source src="../audio/prophecies.mp3" type="audio/mp3" />
-    </audio>
+            <!-- Link to home page to restart the back groun music and input section-->
 
-    <footer></footer>
+            <a href="/index.html" id="landing_page_text">
+                Space Game
+            </a>
+        </h1>
 
-    <script>
-      document
-        .getElementById("nameForm")
-        .addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent default form submission
-          const name = document.getElementById("fname").value;
-          localStorage.setItem("userName", name); // Store the name in local storage
-          window.location.href = "quiz.html"; // Redirect to quiz page
-        });
-    </script>
-  </body>
+        <img id="the_sun" src="/assets/images/sun.gif" alt="image of the sun" />
+
+        <p class="roboto-mono-quiz" id="age_info">
+            This is a game for children age 3+
+        </p>
+
+        <h2 class="roboto-mono-quiz" id="users_name">
+            What is your name?
+        </h2>
+
+        <!-- Form for the user to input their name.-->
+
+        <form id="nameForm" class="roboto-mono-quiz">
+            <label for="fname">Hello </label>
+
+            <!-- Submit button opens the quiz-->
+
+            <input type="text" id="fname" name="fname" required />
+            <input id="submit_button" type="submit" value="Start Game" />
+        </form>
+
+        <audio id="landing_audio" loop autoplay>
+            <source src="/assets/audio/prophecies.mp3" type="audio/mp3" />
+        </audio>
+
+
+
+        <script>
+            document
+                .getElementById("nameForm")
+                .addEventListener("submit", function (event) {
+                    event.preventDefault(); // Prevent default form submission
+                    const name = document.getElementById("fname").value;
+                    localStorage.setItem("userName", name); // Store the name in local storage
+                    window.location.href = "quiz.html"; // Redirect to quiz page
+                });
+        </script>
+    </main>
+</body>
+
 </html>

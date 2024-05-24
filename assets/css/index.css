@@ -46,6 +46,11 @@ p {
   text-align: center;
 }
 
+#landing_page_text {
+  text-decoration: none;
+  color: white !important;
+}
+
 #users_name {
   font-size: largerroboto-mono-quiz;
   color: chocolate;
