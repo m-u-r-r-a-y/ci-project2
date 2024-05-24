@@ -1,6 +1,6 @@
          let questions = [
                 ["How many planets are in the solar system?", "4.webp", "2.webp", "5.webp", "8.webp", 4],
-                ["Which planet is the largest?", "mars.gif", "jupiter.gif", "pluto.gif", "mercury.gif", 2],
+                ["Which planet is the largest?", "uranus.gif", "jupiter.gif", "pluto.gif", "mercury.gif", 2],
                 ["Which planet is the smallest?", "mercury.gif", "earth.gif", "neptune.gif", "mars.gif", 1],
                 ["What colour is mars?", "red.png", "grey.png", "blue.png", "brown.png", 1],
                 ["Which planet has rings?", "earth.gif", "jupiter.gif", "pluto.gif", "saturn.gif", 4],
