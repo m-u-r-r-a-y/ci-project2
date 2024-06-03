@@ -9,7 +9,7 @@ The purpose of this website was to use Javascript to create an interactive exper
 
 This site has been designed to be used by a children from the age of 3 under the supervision of an adult. 
 
-I used Figma to draft two pages, keeping the user’s journey and short and focused – the idea behind building a site like this was to help my child learn about our solar system, the milky way and to improve their computer literacy. Since starting the bootcamp I have been spending less time with them and more time on the computer, so I thought it would be nice to do an activity together!  Informal education seems to be important in our house and we have become even more competitive so I knew a quiz would be perfect.
+I used Figma to draft two pages, keeping the user’s journey short and focused – the idea behind building a site like this was to help my child learn about our solar system, the milky way and to improve their computer literacy. Since starting the bootcamp I have been spending less time with them and more time on the computer, so I thought it would be nice to do an activity together!  Informal education seems to be important in our house and we have become even more competitive so I knew a quiz would be perfect.
 
 Image 1.
 
