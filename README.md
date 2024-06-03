@@ -1,3 +1,6 @@
+<img src= "assets/images/multiple_devices.PNG">
+<br>
+
 # Space Game Project
 
 The purpose of this website was to use Javascript to create an interactive experience for preschool aged children to learn to use a computer/ the Internet and to learn about the universe.
