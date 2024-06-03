@@ -54,7 +54,9 @@ My child tested the website and asked me to change the audio and we recorded the
 
 The audio on the landing page could be changed to a more childish game themed soundtrack.
 The design of the score function on the quiz page could become bolder and more noticeable.
-I would like to include more personalised user inputted elements such a pre-setting the colours and pre-recording audio elements to make it more appealing and unique for the user and to develop their overall computer literacy
+I would like to include more personalised user inputted elements such a pre-setting the colours and pre-recording audio elements to make it more appealing and unique for the user and to develop their overall computer literacy.
+
+Check the website performace - with large media files I would change the file format to decrease the size and pre-connect certain sorces to speed up delivery.
 
 
 # Credits
