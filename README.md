@@ -23,6 +23,7 @@ Image 2.
 ## Landing page 
 To keep it simple I wanted the user to start with a landing page which introduced and  required an input which would be stored and presented on the quiz page. The design and layout has been chosen to appeal to a child user, although I made the choice to keep a sense of authenticity and use actual images of the planets instead of cute drawings. I wanted to give ‘Space’ a mysterious quality to maintain the feeling of intrigue in the unknown, which is hopefully echoed again through the background music.
 
+Image 3.
 <img src="readme-folder/Screenshot 2024-05-24 at 16.08.13.png">
 
 ## Quiz page
