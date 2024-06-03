@@ -63,4 +63,6 @@ Check the website performace - with large media files I would change the file fo
 
 <img src="assets/images/earth.gif">
 
+Landing page Audio : Philip Glass - Koyaanisqatsi 1983
+
 TBC
