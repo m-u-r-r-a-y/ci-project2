@@ -16,7 +16,6 @@ This website is designed for children aged three and older, with the expectation
 As I have been spending more time on computer-related tasks due to my participation in the bootcamp, I wanted to create a shared activity that we could enjoy together. Informal education holds significant value in our household, and our growing competitiveness made the idea of incorporating a quiz particularly appealing.
 
 Image 1.
-
 <img src= "readme-folder/Screenshot 2024-05-24 at 16.05.31.png">
 
 Image 2.
@@ -29,6 +28,7 @@ Image 2.
 User Experience and Design Choices:
 
 To ensure simplicity, the user journey begins with a landing page that introduces the concept and requires input from the user, which will be stored and displayed on the quiz page. The design and layout have been intentionally crafted to appeal to young users, while I opted for authentic images of the planets instead of whimsical illustrations. This choice aims to convey a sense of realism and preserve the mysterious quality of space, fostering a feeling of intrigue about the unknown. This atmosphere is further enhanced by the background music, which complements the overall experience.
+
 Image 3.
 <img src="readme-folder/Screenshot 2024-05-24 at 16.08.13.png">
 
